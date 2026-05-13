@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo
+ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode,
+aparecerian codigos antiguos -->
+<html lang="es">
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de
+la página-->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Encabezado, el valor atributo id invoca a una funcion del archivo style.css
+para dar el formato del menu -->
+<header id="mi-encabezado">
+
+<title>Arquitectura de software</title>
+<!--Creacion del menú utilizando Nav-->
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="about.html">Acerca de </a></li>
+<li><a href="contact.html">Contacto</a></li>
+</ul>
+</nav>
+
+<!--Texto del encabezado-->
+<h1>Arquitectura de software</h1>
+<p>Acerca de</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo
+style.css-->
+<body>
+
+<main>
+
+<!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
+estan especificados en el archivo style.css*-->
+<section class="contenido">
+<h2> <span style="background-color:rgb(163, 166, 212);" ;>Acerca
+de...</span>
+<tr><td> <hr>
+</hr></h2>
+<p>
+El diseño de la arquitectura de software determina cómo construir un sistema de software que satisfaga los requisitos funcionales y no funcionales, equilibrando factores como la mantenibilidad, el esfuerzo, la velocidad de ingeniería, la resiliencia, la robustez, la escalabilidad y los costos operativos. En la fase de diseño, los arquitectos especifican un plan detallado para el software, de forma similar a como los arquitectos de edificios especifican los planos. Esta especificación incluye los componentes y subcomponentes del software, las interfaces y los límites, las interdependencias, la pila tecnológica subyacente y los marcos de trabajo que utilizan. También describe los flujos de datos y control claves, así como las restricciones para abordar los requisitos no funcionales, como los tiempos de respuesta, la redundancia y los controles de seguridad.
+
+Por lo general, el ciclo de vida del desarrollo de software (SDLC) se lleva a cabo de forma iterativa e incremental sobre la misma base arquitectónica. A medida que el sistema evoluciona con nuevas capacidades y requisitos, la arquitectura debe permanecer estable, proporcionando una estructura coherente para la aplicación en evolución.  
+
+Los cambios arquitectónicos suelen generar costes considerables, ya que implican reescrituras de todo el sistema con un alto riesgo de regresiones y problemas inesperados en producción. Es fundamental abordar los requisitos y anticipar las consecuencias de las decisiones de diseño. Elegir el mejor patrón de arquitectura de software es crucial para el rendimiento, la seguridad, la mantenibilidad y la rentabilidad del software durante su desarrollo e implementación. Las numerosas decisiones arquitectónicas críticas tomadas en la fase de diseño justifican la inversión, ya que a menudo determinan el éxito o el fracaso del producto final.</p>
+
+</td></tr>
+
+</section>
+</main>
+
+<!--Pie de pagina-->
+<!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar
+el formato del pie de pagina-->
+<div class="footer">Derechos reservados © 2026 Allison Adriana Romero </div>
+
+<!--Invoca al archivo script.js que contiene la funcion que controla el
+comportamiento del menu-->
+<script src="script.js"></script>
+</body>
+</html>
